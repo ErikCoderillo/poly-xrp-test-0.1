@@ -1,0 +1,28 @@
+[
+  {
+    "type": "java",
+    "name": "jar (in project poly xrp test 0.1)",
+    "extensions": [
+      {
+        "name": "Sim GUI",
+        "libName": "/Users/discoveryhighschool/Documents/polybotz/poly xrp test 0.1/build/jni/release/libhalsim_gui.dylib",
+        "defaultEnabled": true
+      },
+      {
+        "name": "Sim XRP Client",
+        "libName": "/Users/discoveryhighschool/Documents/polybotz/poly xrp test 0.1/build/jni/release/libhalsim_xrp.dylib",
+        "defaultEnabled": true
+      },
+      {
+        "name": "Use Real DriverStation",
+        "libName": "/Users/discoveryhighschool/Documents/polybotz/poly xrp test 0.1/build/jni/release/libhalsim_ds_socket.dylib",
+        "defaultEnabled": false
+      }
+    ],
+    "environment": {
+      "HALSIMXRP_HOST": "192.168.42.1"
+    },
+    "libraryDir": "/Users/discoveryhighschool/Documents/polybotz/poly xrp test 0.1/build/jni/release",
+    "mainClassName": "frc.robot.Main"
+  }
+]
